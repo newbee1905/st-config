@@ -9,7 +9,7 @@ sudo make install
 ## TODO
 #### Adding patches:
  - [ ] ligature
- - [ ] boxdraw
+ - [x] boxdraw
  - [ ] font2
  - [ ] anygeometry
  - [ ] font2
