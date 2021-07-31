@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "FantasqueSansMono Nerd Font:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -180,7 +180,7 @@ static unsigned int defaultattr = 11;
  */
 static uint forcemousemod = ShiftMask;
 
-const unsigned int mousescrollincrement = 1;
+const unsigned int mousescrollincrement = 10;
 
 /*
  * Internal mouse shortcuts.
@@ -188,8 +188,8 @@ const unsigned int mousescrollincrement = 1;
  */
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button   function        argument                        release */
-	{ ShiftMask,            Button4, kscrollup,      {.i = mousescrollincrement} },
-	{ ShiftMask,            Button5, kscrolldown,    {.i = mousescrollincrement} },
+	{ ShiftMask,            Button4, kscrollup,      {.i = mousescrollincrement } },
+	{ ShiftMask,            Button5, kscrolldown,    {.i = mousescrollincrement } },
 	{ XK_ANY_MOD,           Button2, selpaste,       {.i = 0},                       1 },
 	{ ShiftMask,            Button4, ttysend,        {.s = "\033[5;2~"} },
 	{ XK_ANY_MOD,           Button4, ttysend,        {.s = "\031"} },
