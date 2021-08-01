@@ -14,4 +14,4 @@ sudo make install
  - [ ] anygeometry
  - [ ] font2
  - [x] scrollback
- - [ ] anysize
+ - [x] anysize
