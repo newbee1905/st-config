@@ -15,3 +15,4 @@ sudo make install
  - [ ] font2
  - [x] scrollback
  - [x] anysize
+ - [x] alpha
