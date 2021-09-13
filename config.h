@@ -109,29 +109,28 @@ unsigned int tabspaces = 2;
 float alpha = 1;
 
 /* Terminal colors (16 first used in escape sequence) */
-// static const char *colorname[] = {
+static const char *colorname[] = {
   /* 8 normal colors */
-  // [0] = "#262626", /* background */
-  // [1] = "#af5f5f", /* red     */
-  // [2] = "#5f875f", /* green   */
-  // [3] = "#87875f", /* yellow  */
-  // [4] = "#5f87af", /* blue    */
-  // [5] = "#5f5f87", /* magenta */
-  // [6] = "#5f8787", /* cyan    */
-  // [7] = "#6c6c6c", /* white   */
+  [0] = "#262626", /* background */
+  [1] = "#af5f5f", /* red     */
+  [2] = "#5f875f", /* green   */
+  [3] = "#87875f", /* yellow  */
+  [4] = "#5f87af", /* blue    */
+  [5] = "#5f5f87", /* magenta */
+  [6] = "#5f8787", /* cyan    */
+  [7] = "#6c6c6c", /* white   */
 
   /* 8 bright colors */
-  // [8]  = "#444444", /* black   */
-  // [9]  = "#ff8700", /* red     */
-  // [10] = "#87af87", /* green   */
-  // [11] = "#ffffaf", /* yellow  */
-  // [12] = "#87afd7", /* blue    */
-  // [13] = "#8787af", /* magenta */
-  // [14] = "#5fafaf", /* cyan    */
-  // [15] = "#bcbcbc", /* white   */
-// };
+  [8]  = "#444444", /* black   */
+  [9]  = "#ff8700", /* red     */
+  [10] = "#87af87", /* green   */
+  [11] = "#ffffaf", /* yellow  */
+  [12] = "#87afd7", /* blue    */
+  [13] = "#8787af", /* magenta */
+  [14] = "#5fafaf", /* cyan    */
+  [15] = "#bcbcbc", /* white   */
+};
 
-#include "/home/newbee/.cache/wal/colors-wal-st.h"
 
 /*
  * Default colors (colorname index)
