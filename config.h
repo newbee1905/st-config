@@ -3,9 +3,7 @@
 /*
  * appearance
  *
- * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
- */
-static char *font = "FantasqueSansMono Nerd Font:pixelsize=18:antialias=true:autohint=true";
+ * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html */ static char *font = "FantasqueSansMono Nerd Font:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -111,24 +109,24 @@ float alpha = 1;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
   /* 8 normal colors */
-  [0] = "#262626", /* background */
-  [1] = "#af5f5f", /* red     */
-  [2] = "#5f875f", /* green   */
-  [3] = "#87875f", /* yellow  */
-  [4] = "#5f87af", /* blue    */
-  [5] = "#5f5f87", /* magenta */
-  [6] = "#5f8787", /* cyan    */
-  [7] = "#6c6c6c", /* white   */
+  [0] = "#1a2026", /* background */
+  [1] = "#ac8a8c", /* red     */
+  [2] = "#8aac8b", /* green   */
+  [3] = "#c4c19e", /* yellow  */
+  [4] = "#6b8bab", /* blue    */
+  [5] = "#8f8aac", /* magenta */
+  [6] = "#7c9cbc", /* cyan    */
+  [7] = "#b0b0b0", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#444444", /* black   */
-  [9]  = "#ff8700", /* red     */
-  [10] = "#87af87", /* green   */
-  [11] = "#ffffaf", /* yellow  */
-  [12] = "#87afd7", /* blue    */
-  [13] = "#8787af", /* magenta */
-  [14] = "#5fafaf", /* cyan    */
-  [15] = "#bcbcbc", /* white   */
+  [8]  = "#20262c", /* black   */
+  [9]  = "#e89199", /* red     */
+  [10] = "#9ec49f", /* green   */
+  [11] = "#e39a83", /* yellow  */
+  [12] = "#7797b7", /* blue    */
+  [13] = "#a39ec4", /* magenta */
+  [14] = "#9aafe6", /* cyan    */
+  [15] = "#b0b0b0", /* white   */
 };
 
 
